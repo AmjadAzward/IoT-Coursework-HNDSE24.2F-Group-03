@@ -1,9 +1,11 @@
-# 🛰️ Smart IoT Health Monitoring System
+#  Smart IoT Health Monitoring System
 
 A real-time IoT-based health monitoring system built with **ESP32**, **MAX30105 Pulse Sensor**, **Adafruit AHTX0 Sensor**, **Firebase Realtime Database**, and a custom-built **Android mobile app** for real-time data visualization.
 
+![IoT Image](https://raw.githubusercontent.com/AmjadAzward/IoT-Coursework-HNDSE24.2F-Group-03/main/Images/01.jpg)
 
-## 📖 About the Project
+
+##  About the Project
 
 This project monitors key health parameters such as:
 - Heart Rate (BPM)
@@ -17,18 +19,18 @@ The data is transmitted from ESP32 to Firebase in real time and displayed on a d
 
 ---
 
-## 🔧 Features
+##  Features
 
-- 📡 Real-time sensor data logging from ESP32
-- ☁️ Firebase Realtime Database integration
-- 📱 Custom Android mobile app to display health vitals
-- ⚠️ Alert system for abnormal readings (upcoming)
-- 🔧 Easily extendable for other health sensors or platforms
+-  Real-time sensor data logging from ESP32
+-  Firebase Realtime Database integration
+-  Custom Android mobile app to display health vitals
+-  Alert system for abnormal readings (upcoming)
+-  Easily extendable for other health sensors or platforms
 
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 
 - Arduino IDE
 - Android Studio
@@ -46,7 +48,7 @@ The data is transmitted from ESP32 to Firebase in real time and displayed on a d
 
 ---
 
-## ⚙️ Arduino IDE Installation
+##  Arduino IDE Installation
 
 1. Download Arduino IDE: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 2. Add ESP32 board URL in Preferences:
@@ -60,7 +62,7 @@ Edit
 
 ---
 
-## ☁️ Firebase Setup
+##  Firebase Setup
 
 1. Create a Firebase project from [Firebase Console](https://console.firebase.google.com/)
 2. Enable **Realtime Database**
@@ -94,25 +96,25 @@ Select ESP32 board and upload the code.
 
 ---
 
-## 📖 About the App
+##  About the App
 
 This mobile app displays live health parameters collected from IoT sensors connected to an ESP32 and pushed to Firebase. It's designed for patients, doctors, or caretakers to remotely monitor:
 
-- ❤️ Heart Rate (BPM)
-- 🫁 Blood Oxygen Level (SpO₂)
-- 🌡️ Body Temperature
-- 💧 Humidity
-- 🗣️ Cough Detection (Alert)
+-  Heart Rate (BPM)
+-  Blood Oxygen Level (SpO₂)
+-  Body Temperature
+-  Humidity
+-  Cough Detection (Alert)
 
 ---
 
-## 🔧 Features
+##  Features
 
-- 🔄 Real-time data sync from Firebase
-- 📊 Live vitals displayed using TextViews or Cards
-- 📱 Simple and responsive UI
-- ⚠️ Abnormal value alerts (future scope)
-- 🌐 Works on any Android device with internet
+-  Real-time data sync from Firebase
+-  Live vitals displayed using TextViews or Cards
+-  Simple and responsive UI
+-  Abnormal value alerts (future scope)
+-  Works on any Android device with internet
 
 ---
 
@@ -125,7 +127,7 @@ This mobile app displays live health parameters collected from IoT sensors conne
 
 ---
 
-## 🔗 Firebase Integration
+##  Firebase Integration
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)  
 2. Add a new Android app to your project  
@@ -155,7 +157,7 @@ json
 
 ---
 
-## 📂 Source & GitHub Repositories for Tools/Libraries Used
+##  Source & GitHub Repositories for Tools/Libraries Used
 
 | Tool / Library               | Description                                | GitHub / Source Link                                      |
 |-----------------------------|--------------------------------------------|-----------------------------------------------------------|
